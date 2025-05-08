@@ -1,1 +1,1 @@
-Rails.application.config.assets.config += %w(blog_engine/application.css blog_engine/application.js)
+Rails.application.config.assets.precompile += %w(blog_engine/application.css blog_engine/application.js)
