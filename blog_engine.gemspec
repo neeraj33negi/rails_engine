@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version     = BlogEngine::VERSION
   spec.authors     = [ "Neeraj Negi" ]
   spec.email       = [ "neeraj33negi@gmail.com" ]
-  spec.homepage    = "https://www.youtube.com/"
+  spec.homepage    = "https://github.com/neeraj33negi/rails_engine"
   spec.summary     = "Summary of BlogEngine."
   spec.description = "Description of BlogEngine."
   spec.license     = "MIT"
@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://www.youtube.com/"
-  spec.metadata["changelog_uri"] = "https://www.youtube.com/"
+  spec.metadata["source_code_uri"] = "https://github.com/neeraj33negi/rails_engine"
+  spec.metadata["changelog_uri"] = "https://github.com/neeraj33negi/rails_engine"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
